@@ -1,0 +1,165 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.nav-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: gray;
+    padding: 20px; ;
+}
+.menus{
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    font-size: 17px;
+    font-style: italic;
+}
+.banner-container{
+    height: 100vh;
+    background-image:
+    linear-gradient(to bottom, #00000000, rgba(0, 0, 0, 0.20)),
+    url('../digital-agency/asset/image/background.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+.primary{
+    color: red;
+}
+.title{
+    font-size: 55px;
+    font-weight: bold;
+    color: white;
+}
+.description{
+    color: blue;
+   padding: 10px;
+   width: 50%; 
+   margin: auto;
+}
+.btn{
+    padding: 15px 20px;
+    border: none;
+}
+.bg-primary{
+    background-color: red;
+    color: white;
+}
+.service-container{
+    height: 100vh;
+    background-image:
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.281), rgba(0, 0, 0, 0.767)),
+    url('../digital-agency/asset/image/footer-bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+}
+.icon{
+    width: 70px;
+}
+.box{
+    text-align: center;
+    width: 100px;
+    height: 150;
+    padding: 50px;
+    background-color: white;
+    color: black;
+}
+.service-description{
+    width: 50%;
+    color: white;
+}
+.all-box{
+    display: flex;
+    gap: 3px;
+    margin-top: 5px;
+}
+.author-img{
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+}
+.author-container{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.profile-content{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-right: 2px solid red;
+    padding-right: 20px;
+}
+.phone-call{
+    display: contents;
+    align-items: center;
+    border-right: 2px solid red;
+}
+.phone-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+    border-radius: 5px;
+    background-image: url(../new-year-new-me/images/gradient1.png);
+    margin-top: -30px;
+}
+.blog-title{
+    color: black;
+    text-align: center;
+    margin-top:50px;
+}
+.descriptions{
+    width: 100%;
+    text-align: center;
+    font-size: large;
+    margin: 40px;
+    color: blueviolet;
+}
+.card{
+    width: 250px;
+    height: 350px;
+
+}
+.blog-image{
+    width: 100%;
+}
+.blog-pera{
+    text-align: center;
+    font-size: 60px;
+}
+.card-title{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.footer-content{
+    height: 100vh;
+    background-color: black;
+    background-image: url(../digital-products-b8/images/background.png);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 200px;
+    gap: 50px;
+}
+.icons-area{
+
+}
+    
